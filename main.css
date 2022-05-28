@@ -71,9 +71,23 @@ body {
     color: var(--coffee-dark);
 }
 
+.nav-main .nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu button {
+    margin-left: 33px;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 /* SECTION-MAIN */
 .main-section {
     margin-top: 80px;
+    height: 150vh;
 }
 
 h1 {
