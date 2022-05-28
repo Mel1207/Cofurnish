@@ -1,3 +1,7 @@
+:root {
+    --main-bg: red;
+}
+
 *, html {
     margin: 0;
     padding: 0;
@@ -6,6 +10,12 @@
 
 body {
     font-size: 20px;
+    background: var(--main-bg);
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 h1 {
