@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'KoPub-Batang';
+    src: url(fonts/KoPubBatang-Light.ttf);
+}
+
 :root {
-    --main-bg: red;
+    /* BACKGROUND COLORS */
+    --main-bg: #FFFBF6;
+
+    /* FONT FAMILIES */
+    --primary-font: 'KoPub-Batang';
+    --secondary-font: 'Montserrat';
+
+    /* TEXT COLORS */
+    --coffee-dark: #302B27
 }
 
 *, html {
@@ -9,8 +23,23 @@
 }
 
 body {
+    position: relative;
     font-size: 20px;
     background: var(--main-bg);
+}
+
+/* NAVBAR */
+.nav-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--main-bg);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -18,6 +47,36 @@ body {
     margin: 0 auto;
 }
 
+.nav-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-main .nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-main .nav-links .nav-item {
+    margin: 0 25.5px;
+}
+
+.nav-main .nav-item a {
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--coffee-dark);
+}
+
+/* SECTION-MAIN */
+.main-section {
+    margin-top: 80px;
+}
+
 h1 {
     color: red;
+    font-family: var(--primary-font), sans-serif;
 }
