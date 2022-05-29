@@ -166,4 +166,11 @@ body {
 /* SECTION-PARTNERS */
 .partners-section {
     height: 249px;
+    display: flex;
+    align-items: center;
+}
+
+.partners-section .container {
+    display: flex;
+    justify-content: space-between;
 }
