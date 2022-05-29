@@ -76,6 +76,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 
 .nav-main .container {
@@ -160,4 +161,9 @@ body {
 
 .header-container .btn-primary {
     margin-right: 27px;
+}
+
+/* SECTION-PARTNERS */
+.partners-section {
+    height: 249px;
 }
