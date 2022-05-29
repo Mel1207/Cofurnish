@@ -7,12 +7,14 @@
 :root {
     /* BACKGROUND COLORS */
     --main-bg: #FFFBF6;
+    --coffee-brown-bg: #A1724B;
 
     /* FONT FAMILIES */
     --primary-font: 'KoPub-Batang';
     --secondary-font: 'Montserrat';
 
     /* TEXT COLORS */
+    --white: #ffffff;
     --coffee-dark: #302B27;
     --coffee-dark-50: rgba(63, 41, 23, .5)
 }
@@ -28,6 +30,38 @@ body {
     font-size: 20px;
     background: var(--main-bg);
     font-family: var(--secondary-font);
+    width: 100%;
+    height: auto;
+}
+
+/* GLOBAL CSS SETUP */
+.btn {
+    outline: none;
+    border: none;
+    height: 50px;
+    padding: 0 30px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    font-family: var(--secondary-font);
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--coffee-brown-bg);
+    color: var(--white);
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid var(--coffee-brown-bg);
+    color: var(--coffee-brown-bg);
+}
+
+.container {
+    width: 85%;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 /* NAVBAR */
@@ -44,16 +78,10 @@ body {
     align-items: center;
 }
 
-.container {
-    max-width: 1080px;
-    margin: 0 auto;
-}
-
 .nav-main .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .nav-main .nav-links {
@@ -91,6 +119,12 @@ body {
     margin-top: 80px;
     height: 670px;
     width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-section .container {
+    z-index: 2;
 }
 
 .main-section .bg-image {
@@ -121,4 +155,9 @@ body {
     color: var(--coffee-dark-50);
     line-height: 27px;
     letter-spacing: 0.02em;
+    margin-bottom: 60px;
+}
+
+.header-container .btn-primary {
+    margin-right: 27px;
 }
