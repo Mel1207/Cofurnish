@@ -179,6 +179,20 @@ body {
 .products-section {
     height: 500px;
     width: 100%;
-    background: var(--white);
+    /* background: var(--white); */
+    background: rgb(255, 206, 206);
     padding: 70px 0;
+}
+
+.d-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.product-card {
+    background: #ffffff;
+    height: 401px;
+    /* width: 256px; */
 }
