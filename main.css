@@ -253,3 +253,42 @@ body {
     font-weight: 700;
     color: var(--coffee-dark);
 }
+
+/* SECTION INQUIRIES */
+.inquiries-section {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.inquiries-section .inquiries-bg {
+    height: 100%;
+    width: 50%;
+    background: url('./img/img-inquiries.jpg');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.inquiries-section .container {
+    position: absolute;
+    top: 0;
+    width: 85%;
+    max-width: 1080px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    height: 100%;
+    display: block;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.inquiries-section .accordion-content {
+    background: white;
+    width: 495px;
+
+}
