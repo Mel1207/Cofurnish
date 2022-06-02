@@ -257,18 +257,20 @@ body {
 /* SECTION INQUIRIES */
 .inquiries-section {
     position: relative;
-    height: 500px;
+    height: auto;
     width: 100%;
     display: flex;
 }
 
 .inquiries-section .inquiries-bg {
-    height: 100%;
+    height: auto;
     width: 50%;
     background: url('./img/img-inquiries.jpg');
     background-size: cover;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .inquiries-section .inquiries-container {
@@ -276,12 +278,32 @@ body {
     display: flex;
     align-items: center;
     padding-left: 2%;
-    /* padding-right: 33%; */
+    margin: 10vh 0;
 }
 
-.inquiries-section .accordion-content {
-    background: white;
+.inquiries-section .inquiries-content {
     max-width: 495px;
     min-width: auto;
-    /* width: 100%; */
+}
+
+.inquiries-content h2 {
+    font-size: 30;
+    font-weight: 700;
+    color: var(--coffee-dark);
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+}
+
+.inquiries-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--coffee-dark);
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.inquiries-content div {
+    background: var(--white);
+    margin-bottom: 10px;
 }
