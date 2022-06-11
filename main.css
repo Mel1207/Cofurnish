@@ -331,3 +331,21 @@ body {
     line-height: 27px;
     margin-bottom: 20px;
 }
+
+.testimonials-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.card-testimonial {
+    background: var(--white);
+    padding: 10px;
+}
+
+.card-img {
+    height: 320px;
+    width: 100%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
