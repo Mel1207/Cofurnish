@@ -287,7 +287,7 @@ body {
 }
 
 .inquiries-content h2 {
-    font-size: 30;
+    font-size: 30px;
     font-weight: 700;
     color: var(--coffee-dark);
     font-family: var(--primary-font);
@@ -306,4 +306,28 @@ body {
 .inquiries-content div {
     background: var(--white);
     margin-bottom: 10px;
+}
+
+.testimonial-section {
+    background: url('./img/img-testimonials-bg.png');
+    padding: 80px 0;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.testimonial-section h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white);
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+}
+
+.testimonial-section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 27px;
+    margin-bottom: 20px;
 }
