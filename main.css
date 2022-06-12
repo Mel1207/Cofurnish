@@ -8,6 +8,7 @@
     /* BACKGROUND COLORS */
     --main-bg: #FFFBF6;
     --coffee-brown-bg: #A1724B;
+    --coffee-dark-bg: #1F1813;
     --red-bg: #FF4444;
     --gray-bg: #EFEFEF;
 
@@ -437,4 +438,9 @@ body {
 
 .contact-form .btn {
     margin-top: 20px;
+}
+
+/* SECTION FOOTER */
+.footer-section {
+    background: var(--coffee-dark-bg);
 }
