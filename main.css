@@ -391,5 +391,36 @@ body {
 
 .contact-section .contact-form {
     background: var(--white);
+    padding: 40px 30px;
     width: 532px;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--coffee-dark);
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+}
+
+.contact-form p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--coffee-dark);
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--coffee-dark);
+    padding: 5px 0
+}
+
+.form-group input {
+    height: 40px;
+    margin-bottom: 15px;
 }
