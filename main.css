@@ -416,11 +416,25 @@ body {
     width: 100%;
     outline: none;
     border: none;
-    border-bottom: 1px solid var(--coffee-dark);
-    padding: 5px 0
+    border-bottom: 1px solid rgba(48, 43, 39, 0.1);
+    padding: 5px 0;
+    resize: none;
+    font-family: var(--secondary-font);
 }
 
 .form-group input {
     height: 40px;
     margin-bottom: 15px;
+}
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+    font-family: var(--secondary-font);
+    color: rgba(48, 43, 39, 0.2);
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+}
+
+.contact-form .btn {
+    margin-top: 20px;
 }
