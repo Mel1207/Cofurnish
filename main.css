@@ -308,6 +308,7 @@ body {
     margin-bottom: 10px;
 }
 
+/* SECTION TESTIMONIAL */
 .testimonial-section {
     background: url('./img/img-testimonials-bg.png');
     padding: 80px 0;
@@ -373,4 +374,22 @@ body {
     width: 100%;
     justify-content: center;
     margin-bottom: 10px;
+}
+
+
+/* SECTION CONTACTS */
+.contact-section {
+    padding: 80px 0;
+}
+
+.contact-section .contact-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-section .contact-form {
+    background: var(--white);
+    width: 532px;
 }
