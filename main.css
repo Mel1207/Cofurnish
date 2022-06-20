@@ -39,6 +39,14 @@ body {
 }
 
 /* GLOBAL CSS SETUP */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 .btn {
     outline: none;
     border: none;
@@ -471,7 +479,7 @@ body {
 .footer-upper div {
     display: flex;
     width: max-content;
-    margin: 20px auto;
+    margin: 20px auto 50px;
     align-items: center;
 }
 
@@ -479,9 +487,39 @@ body {
     margin-right: 15px;
 }
 
-
 .footer-lower .footer-links {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.footer-links ul {
+    display: flex;
+}
+
+.footer-links ul li {
+    margin-right: 20px;
+}
+
+.footer-links .policy-links {
+    display: flex;
+}
+
+.footer-lower .footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer-copyright .footer-lines {
+    height: 1px;
+    width: 100%;
+    background: var(--gray-bg);
+}
+
+.footer-copyright p {
+    min-width: max-content;
+    display: block;
+    margin: 0 30px;
 }
