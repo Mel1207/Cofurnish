@@ -183,8 +183,15 @@ ul {
 }
 
 .partners-section .container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    align-items: center;
+}
+
+.partners-section .logo-partner-container img {
+    height: 70px;
+    width: 100%;
 }
 
 /* SECTION-PRODUCTS */
