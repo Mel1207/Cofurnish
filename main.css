@@ -451,7 +451,7 @@ ul {
 /* SECTION FOOTER */
 .footer-section {
     background: var(--coffee-dark-bg);
-    padding: 30px 0;
+    padding: 30px 0 50px;
 }
 
 .footer-upper h2 {
@@ -501,8 +501,29 @@ ul {
     margin-right: 20px;
 }
 
+.footer-links ul li a {
+    color: var(--white);
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    opacity: 0.75;
+}
+
 .footer-links .policy-links {
     display: flex;
+}
+
+.policy-links a, .policy-links p {
+    color: var(--white);
+    opacity: 0.75;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    opacity: 0.75;
+}
+
+.policy-links .text-spacer {
+    margin: 0 10px;
 }
 
 .footer-lower .footer-copyright {
@@ -516,10 +537,16 @@ ul {
     height: 1px;
     width: 100%;
     background: var(--gray-bg);
+    opacity: 0.1;
 }
 
 .footer-copyright p {
     min-width: max-content;
     display: block;
     margin: 0 30px;
+    font-weight: 200;
+    color: var(--white);
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    opacity: 0.3;
 }
