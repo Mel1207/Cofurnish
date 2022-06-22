@@ -9,5 +9,14 @@
     .nav-main .nav-links {
         display: none;
     }
+
+    .nav-menu .btn-menu {
+        display: block;
+        margin-left: 18px;
+    }
+
+    .nav-menu .btn-account, .nav-menu .btn-cart {
+        display: none;
+    }
     
 }

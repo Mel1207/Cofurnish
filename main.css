@@ -126,6 +126,10 @@ ul {
     cursor: pointer;
 }
 
+.nav-menu .btn-menu {
+    display: none;
+}
+
 .nav-menu button:nth-child(1) {
     margin-left: 0;
 }
