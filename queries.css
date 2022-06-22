@@ -1,6 +1,13 @@
-@media screen and (max-width: 870px) {
-    body {
-        background: red;
+@media screen and (max-width: 1080px) {
+    .nav-main .nav-links .nav-item {
+        margin: 0 18px;
+    }
+    
+}
+
+@media screen and (max-width: 860px) {
+    .nav-main .nav-links {
+        display: none;
     }
     
 }
