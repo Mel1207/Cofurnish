@@ -18,5 +18,13 @@
     .nav-menu .btn-account, .nav-menu .btn-cart {
         display: none;
     }
+
+    .main-section {
+        height: 70vh;
+        margin-top: 50;
+    }
     
+    .main-section .bg-image {
+        display: none;
+    }
 }
