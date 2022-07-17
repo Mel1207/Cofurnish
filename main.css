@@ -517,7 +517,7 @@ ul {
 }
 
 .footer-links ul li {
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
 .footer-links ul li a {

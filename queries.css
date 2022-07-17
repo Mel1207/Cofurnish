@@ -41,4 +41,12 @@
     .contact-section .contact-form {
         max-width: 100%;
     }
+
+    .footer-lower .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-links ul li {
+        margin: 5px 10px 15px 10px;
+    }
 }
