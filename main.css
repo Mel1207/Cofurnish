@@ -362,8 +362,8 @@ ul {
 .card-testimonial {
     background: var(--white);
     padding: 10px;
-    /* margin: 0 10px;
-    max-width: 347px; */
+    margin: 0 10px;
+    /* max-width: 347px; */
 }
 
 .card-img {
@@ -566,7 +566,6 @@ ul {
 
 .slick-dots {
     display: flex !important;
-    /* display: none !important; */
     justify-content: center;
     margin-top: 25px;
 }
@@ -578,6 +577,7 @@ ul {
     background: transparent;
     border: 1px solid var(--white);
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .slick-dots li button {
