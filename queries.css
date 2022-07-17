@@ -50,3 +50,20 @@
         margin: 5px 10px 15px 10px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .footer-upper div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-upper div button:first-child {
+        margin-right: 0;
+    }
+
+    .footer-upper div button {
+        display: block;
+        margin: 7px auto;
+    }
+}
