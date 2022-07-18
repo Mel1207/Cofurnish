@@ -302,9 +302,7 @@ ul {
 
 .inquiries-section .inquiries-container {
     width: 50%;
-    display: flex;
-    align-items: center;
-    padding-left: 2%;
+    padding: 0 5vh 0 2%;
     margin: 10vh 0;
 }
 

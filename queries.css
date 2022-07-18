@@ -33,6 +33,10 @@
         grid-gap: 2rem;
     }
 
+    .inquiries-section .inquiries-bg {
+        display: none;
+    }
+
     .contact-section .contact-container {
         grid-template-columns: 1fr;
         grid-row-gap: 50px;
