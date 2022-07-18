@@ -72,7 +72,7 @@ ul {
 }
 
 .container {
-    width: 85%;
+    width: 85% !important;
     max-width: 1080px;
     margin: 0 auto;
 }
@@ -286,7 +286,6 @@ ul {
     position: relative;
     height: auto;
     width: 100%;
-    display: flex;
 }
 
 .inquiries-section .inquiries-bg {
@@ -294,21 +293,23 @@ ul {
     width: 50%;
     background: url('./img/img-inquiries.jpg');
     background-size: cover;
+    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
 }
 
-.inquiries-section .inquiries-container {
-    width: 50%;
-    padding: 0 5vh 0 2%;
-    margin: 10vh 0;
+.section-full {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-column-gap: 50px;
 }
 
 .inquiries-section .inquiries-content {
-    max-width: 495px;
-    min-width: auto;
+    width: 100%;
 }
 
 .inquiries-content h2 {
