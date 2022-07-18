@@ -56,6 +56,19 @@
 }
 
 @media screen and (max-width: 500px) {
+    .main-section .header-title {
+        font-size: 37px;
+    }
+
+    .main-section .header-title br {
+        display: none;
+    }
+
+    .header-container .btn-primary {
+        margin-bottom: 10px;
+    }
+
+
     .footer-upper div {
         flex-direction: column;
         justify-content: center;
