@@ -11,6 +11,7 @@
     --coffee-dark-bg: #1F1813;
     --red-bg: #FF4444;
     --gray-bg: #EFEFEF;
+    --black-50-bg: #10101087;
 
     /* FONT FAMILIES */
     --primary-font: 'KoPub-Batang';
@@ -133,6 +134,26 @@ ul {
 
 .nav-menu button:nth-child(1) {
     margin-left: 0;
+}
+
+/* MOBILE MENU */
+.mobile-menu-container {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--black-50-bg);
+    z-index: 11;
+}
+
+.mobile-menu {
+    width: 350px;
+    height: 100vh;
+    background: var(--white);
 }
 
 /* SECTION-MAIN */
