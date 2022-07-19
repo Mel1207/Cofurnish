@@ -156,6 +156,10 @@ ul {
     background: var(--white);
 }
 
+.mobile-open {
+    display: block;
+}
+
 /* SECTION-MAIN */
 .main-section {
     position: relative;

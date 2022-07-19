@@ -1,5 +1,11 @@
 const burgerMenu = document.querySelector('.btn-menu');
 const slider = document.querySelector('.slider');
+const mobileMenu = document.querySelector('.mobile-menu-container');
+
+
+burgerMenu.addEventListener('click', () => {
+    mobileMenu.classList.add('mobile-open')
+})
 
 
 $('.slider').slick({
@@ -25,11 +31,6 @@ $('.slider').slick({
         }
     ]
 });
-
-burgerMenu.addEventListener('click', () => {
-    console.log('menu is clicked')
-})
-
 
 const name = 'Mel'
 
